@@ -1,12 +1,17 @@
 class Dog
+#setter-  
+ def name=(name)
+   @name = name 
+ end
+ #getter
+ def name 
+   @name
+   
+
 end
 
-  def(:name)
-   name = name
-  end
-
-    fido = Dog.new
-    fido = fido.name
+    #fido = Dog.new
+    #fido = fido.name
 
 
 
