@@ -1,12 +1,12 @@
 class Dog
-#setter-
+#setter- Writer
  def name=(name)
    @name = name
  end
- #getter
+ #getter - Reader
  def name
    @name
-   
+ end
 
 end
 
